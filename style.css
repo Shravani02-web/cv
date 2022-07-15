@@ -1,0 +1,149 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size:150%;
+
+}
+
+
+
+h1{
+  color: #66BFBF;
+  margin-top:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /* or 5.625%  1em=16px=100%*/
+  /*rem(rich em) indicates the page to consider the value given for the specified tag instaed of parent(body tag)*/
+
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+.prg{
+  font-family: 'Antic', sans-serif;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative; /* in order to male top as parent container for position: absolute we are using position: relative*/
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;  /* 100px-top & bottom  0- left &right*/
+}
+
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.report {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.rangoli {
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom_cloud{
+  position: absolute;
+  left: 250px;
+  bottom:300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.intro {
+  width: 20%;
+}
+
+.owner{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px,0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  font-family: 'Merriweather', serif;
+}
+
+
+.btn {
+  font-family: 'Merriweather', serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-shadow: 1px 1px 0px #666666;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: 0px solid #3866A3;
+  background: #11CDD4;
+  background: linear-gradient(to top, #11CDD4, #11999E);
+}
+.btn:hover {
+  color: #14396A;
+  background: #30E3CB;
+  background: linear-gradient(to top, #30E3CB, #2bc4ad);
+}
+
+.about {
+  width: 30%;
+margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
